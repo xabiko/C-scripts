@@ -1,4 +1,5 @@
 # Collection of C++ scripts:
+* max-subarray: O(nlogn) subsetting algorithm, implementing tuple return.
 * merge-sort: O(nlogn) sorting algorithm, implementing infinity sentinel.
 * insertion-sort : O(n^2) sorting algorithm.
 * bitshift.cpp : simple iteration over bit-shifted integers.
