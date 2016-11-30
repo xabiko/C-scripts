@@ -33,11 +33,13 @@ tuple<int, int, int> max_cross(vector<int>& vec, int p, int q, int r){
 }
 
 tuple<int, int, int> max_subarr(vector<int>& vec, int p, int r){
+	
 	if(r==p){
 		return make_tuple(p, r, vec[p]);
 	}
 	else{
 		int q = p+(r-p)/2;
+		
 		int leftlow, lefthigh, leftsum;
 		tie(leftlow, lefthigh, leftsum) = max_subarr(vec,p,q);
 		int rightlow, righthigh, rightsum;
