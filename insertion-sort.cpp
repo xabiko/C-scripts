@@ -28,12 +28,12 @@ int main(){
 	vector<int> v(n);
 
 	cout << "Intput desired elements:" << endl;
-	for(int& i : v){
+	for(auto& i : v){
 		cin >> i;
 	}
 	cout << "Ordered elements:" << endl;
 	insertion_sort(v);
-	for(int& i : v){
+	for(auto& i : v){
 		cout << i << ",";
 	}
 }

@@ -7,7 +7,7 @@ void merge_(vector<int>& vec, int p, int q, int r){
 
 	int n1 = q-p+1;
 	int n2 = r-q;
-	int left[n1+1],right[n2+1];
+	int left[n1],right[n2];
 
 	for(int i=0; i<n1; i++){
 		left[i] = vec[p+i];
