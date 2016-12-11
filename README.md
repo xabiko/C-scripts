@@ -1,4 +1,5 @@
 # Collection of C++ scripts:
+* find-all: find all occurrences of a given element in a given vector, implementing templates for type flexibility.
 * max-subarray: O(nlogn) subsetting algorithm, implementing tuple return.
 * merge-sort: O(nlogn) sorting algorithm, implementing infinity sentinel.
 * insertion-sort : O(n^2) sorting algorithm.
