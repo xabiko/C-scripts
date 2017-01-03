@@ -1,4 +1,5 @@
 # Collection of C++ scripts:
+* maxArea-subhistogram: O(n) Largest rectangle embedded in histogram.
 * find-all: find all occurrences of a given element in a given vector, implementing templates for type flexibility.
 * max-subarray: O(nlogn) subsetting algorithm, implementing tuple return.
 * merge-sort: O(nlogn) sorting algorithm, implementing infinity sentinel.
